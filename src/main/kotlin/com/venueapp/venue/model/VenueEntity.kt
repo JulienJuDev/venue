@@ -1,11 +1,16 @@
 package com.venueapp.venue.model
 
-import java.sql.Date
-
+import org.springframework.data.annotation.Id
+import org.springframework.data.mongodb.core.mapping.Document
+@Document
 data class VenueEntity(
-    val id: Int,
+
+    @Id
+    val id: String,
     var place: String,
     var date: String,
     var price: Double,
     var bandList: List<BandEntity>
-)
+    )
+
+

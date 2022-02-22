@@ -1,8 +1,6 @@
 package com.venueapp.venue
 
 import com.venueapp.venue.controller.VenueController
-import com.venueapp.venue.dto.VenueDto
-import com.venueapp.venue.service.VenueService
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 
