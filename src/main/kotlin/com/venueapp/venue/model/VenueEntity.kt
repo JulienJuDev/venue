@@ -7,5 +7,5 @@ data class VenueEntity(
     var place: String,
     var date: String,
     var price: Double,
-    var bandList: ArrayList<String>
+    var bandList: List<BandEntity>
 )

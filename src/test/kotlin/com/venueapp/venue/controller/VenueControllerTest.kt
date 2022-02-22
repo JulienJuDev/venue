@@ -16,7 +16,7 @@ internal class VenueControllerTest {
     lateinit var mockMvc : MockMvc
     
     @Test
-    fun `should return all venues`(){
+    fun whenCalled_shouldReturnAllVenues(){
         // given
         mockMvc.get("/api/venues")
                 .andDo { print() }
